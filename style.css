@@ -5,6 +5,12 @@ body {
     font-weight: 200;
 }
 
+h1{
+    font-weight: 200;
+    text-transform: uppercase;
+    border-top: 5px solid;
+}
+
 img {
     height: 500px;
     border-radius: 50%;
@@ -20,7 +26,20 @@ img {
 }
 
 button{
+    margin: 30px auto 0;
+    padding: 20px 25px;
     background-color: #F69680;
     font-size: 14px;
     text-align: center;
+    border: 1px solid #2E1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+}
+
+button:hover{
+    transition: .3s;
+    background-color: #2E1263;
+    color: #F69680;
+    text-decoration: underline;
 }
