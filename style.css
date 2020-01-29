@@ -14,7 +14,8 @@ h1{
 img {
     height: 500px;
     border-radius: 50%;
-
+    width: 500px;
+    
 }
 
 .container {
